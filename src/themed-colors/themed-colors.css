@@ -1,0 +1,17 @@
+:root {
+  --color--alert: var(--color--red);
+  --color--background: var(--color--white);
+  --color--error: var(--color--red);
+  --color--focus: var(--color--blue);
+  --color--primary: var(--color--bluelight);
+  --color--secondary: var(--color--graa3);
+  --color--success: var(--color--green);
+  --color--warning: var(--color--red);
+  --fgcolor--alert: var(--fgcolor--red);
+  --fgcolor--background: var(--fgcolor--white);
+  --fgcolor--error: var(--fgcolor--red);
+  --fgcolor--primary: var(--fgcolor--bluelight);
+  --fgcolor--secondary: var(--fgcolor--graa3);
+  --fgcolor--success: var(--fgcolor--green);
+  --fgcolor--warning: var(--fgcolor--red);
+}

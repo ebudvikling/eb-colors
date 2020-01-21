@@ -1,0 +1,69 @@
+:root {
+  --color--facebook: var(--color--blue);
+  --color--twitter: var(--color--bluelight);
+  --fgcolor--facebook: var(--color--white);
+  --fgcolor--twitter: var(--color--white);
+}
+
+:root {
+  --color--ekstra: var(--color--red);
+  --fgcolor--ekstra: var(--color--white);
+}
+
+:root {
+  --color--filmmagasinet: var(--color--purpledark);
+  --fgcolor--filmmagasinet: var(--color--white);
+}
+
+:root {
+  --color--flash: var(--color--orange);
+  --fgcolor--flash: var(--color--white);
+}
+
+:root {
+  --color--forbrug: var(--color--blue);
+  --fgcolor--forbrug: var(--color--white);
+}
+
+:root {
+  --color--livescore: var(--color--green);
+  --color--livescore2: var(--color--lime);
+  --fgcolor--livescore: var(--color--white);
+  --fgcolor--livescore2: var(--color--black);
+}
+
+:root {
+  --color--nationen: var(--color--orangedark);
+  --color--nationen2: var(--color--orange);
+  --fgcolor--nationen: var(--color--white);
+  --fgcolor--nationen2: var(--color--white);
+}
+
+:root {
+  --color--nyheder: var(--color--bluedark);
+  --color--nyheder2: var(--color--black);
+  --fgcolor--nyheder: var(--color--white);
+  --fgcolor--nyheder2: var(--color--white);
+}
+
+:root {
+  --color--sex-samliv: var(--color--bordeaux);
+  --color--sex-samliv2: var(--color--rose);
+  --fgcolor--sex-samliv: var(--color--white);
+  --fgcolor--sex-samliv2: var(--color--white);
+}
+
+:root {
+  --color--skolefodbold: var(--color--greenlight);
+  --fgcolor--skolefodbold: var(--color--white);
+}
+
+:root {
+  --color--sport: var(--color--green);
+  --fgcolor--sport: var(--color--white);
+}
+
+:root {
+  --color--tv: var(--color--red);
+  --fgcolor--tv: var(--color--white);
+}

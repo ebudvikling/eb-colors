@@ -1,0 +1,86 @@
+:root {
+  --color--bordeaux: #8a0c36;
+  --color--red: #bd1118;
+  --color--reddark: #900;
+  --color--rose: #dc7095;
+  --fgcolor--bordeaux: #fff;
+  --fgcolor--red: #fff;
+  --fgcolor--reddark: #fff;
+  --fgcolor--rose: #fff;
+}
+
+:root {
+  --color--orange: #e5ad02;
+  --color--orangedark: #e38121;
+  --fgcolor--orange: #fff;
+  --fgcolor--orangedark: #fff;
+}
+
+:root {
+  --color--sand: #cec4a6;
+  --color--yellow: #fae500;
+  --color--yellowlight: #ff0;
+  --fgcolor--sand: #fff;
+  --fgcolor--yellow: #fff;
+  --fgcolor--yellowlight: #000;
+}
+
+:root {
+  --color--green: #32a237;
+  --color--greendark: #2f7820;
+  --color--greenlight: #93b923;
+  --color--lime: #cbfe33;
+  --fgcolor--green: #fff;
+  --fgcolor--greendark: #fff;
+  --fgcolor--greenlight: #fff;
+  --fgcolor--lime: #000;
+}
+
+:root {
+  --color--blue: #31769b;
+  --color--bluedark: #12507b;
+  --color--bluelight: #4fa8df;
+  --color--purpledark: #650188;
+  --color--sea: #84a8c4;
+  --fgcolor--blue: #fff;
+  --fgcolor--bluedark: #fff;
+  --fgcolor--bluelight: #fff;
+  --fgcolor--purpledark: #fff;
+  --fgcolor--sea: #fff;
+}
+
+:root {
+  --color--black: #000;
+  --color--graa1: #3c3c3c;
+  --color--graa2: #484848;
+  --color--graa3: #999;
+  --color--graa4: #c8c8c8;
+  --color--graa5: #ddd;
+  --color--graa6: #e5e5e5;
+  --color--graa7: #efefef;
+  --color--white: #fff;
+  --fgcolor--black: #fff;
+  --fgcolor--graa1: #fff;
+  --fgcolor--graa2: #fff;
+  --fgcolor--graa3: #fff;
+  --fgcolor--graa4: #000;
+  --fgcolor--graa5: #000;
+  --fgcolor--graa6: #000;
+  --fgcolor--graa7: #000;
+  --fgcolor--white: #000;
+}
+
+:root {
+  --color--pastel-darkgreen: #91a34f;
+  --color--pastel-darkred: #954839;
+  --color--pastel-green: #9fc29c;
+  --color--pastel-lightred: #d67e9b;
+  --color--pastel-red: #db5040;
+  --color--pastel-yellow: #d4c564;
+  --fgcolor--pastel-darkgreen: #fff;
+  --fgcolor--pastel-darkred: #fff;
+  --fgcolor--pastel-green: #fff;
+  --fgcolor--pastel-lightred: #fff;
+  --fgcolor--pastel-red: #fff;
+  --fgcolor--pastel-yellow: #fff;
+}
