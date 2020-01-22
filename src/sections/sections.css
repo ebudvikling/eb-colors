@@ -1,215 +1,205 @@
 .bg--eb {
-  background: #bd1118;
-  color: #fff;
-}
-
-.bg--eb2 {
-  background: #900;
-  color: #fff;
-}
-
-.bg--breaking {
-  background: #ff0;
-  color: #000;
-}
-
-.bg--bruger {
-  background: #4fa8df;
-  color: #fff;
-}
-
-.bg--live {
-  background: #000;
-  color: #fff;
-}
-
-.bg--native {
-  background: #cec4a6;
-  color: #fff;
-}
-
-.bg--native2 {
-  background: #84a8c4;
-  color: #fff;
-}
-
-.bg--facebook {
-  background: #31769b;
-  color: #fff;
-}
-
-.bg--twitter {
-  background: #4fa8df;
-  color: #fff;
-}
-
-.bg--ekstra {
-  background: #bd1118;
-  color: #fff;
-}
-
-.bg--filmmagasinet {
-  background: #650188;
-  color: #fff;
-}
-
-.bg--flash {
-  background: #e5ad02;
-  color: #fff;
-}
-
-.bg--forbrug {
-  background: #31769b;
-  color: #fff;
-}
-
-.bg--livescore {
-  background: #32a237;
-  color: #fff;
-}
-
-.bg--livescore2 {
-  background: #cbfe33;
-  color: #000;
-}
-
-.bg--nationen {
-  background: #e38121;
-  color: #fff;
-}
-
-.bg--nationen2 {
-  background: #e5ad02;
-  color: #fff;
-}
-
-.bg--nyheder {
-  background: #12507b;
-  color: #fff;
-}
-
-.bg--nyheder2 {
-  background: #000;
-  color: #fff;
-}
-
-.bg--sex-samliv {
-  background: #8a0c36;
-  color: #fff;
-}
-
-.bg--sex-samliv2 {
-  background: #dc7095;
-  color: #fff;
-}
-
-.bg--skolefodbold {
-  background: #93b923;
-  color: #fff;
-}
-
-.bg--sport {
-  background: #32a237;
-  color: #fff;
-}
-
-.bg--tv {
-  background: #bd1118;
-  color: #fff;
+  background: var(--color--eb);
+  color: var(--fgcolor--eb);
 }
 
 .color--eb {
-  color: #bd1118;
+  color: var(--color--eb);
+}
+
+.bg--eb2 {
+  background: var(--color--eb2);
+  color: var(--fgcolor--eb2);
 }
 
 .color--eb2 {
-  color: #900;
+  color: var(--color--eb2);
+}
+
+.bg--breaking {
+  background: var(--color--breaking);
+  color: var(--fgcolor--breaking);
 }
 
 .color--breaking {
-  color: #ff0;
+  color: var(--color--breaking);
+}
+
+.bg--bruger {
+  background: var(--color--bruger);
+  color: var(--fgcolor--bruger);
 }
 
 .color--bruger {
-  color: #4fa8df;
+  color: var(--color--bruger);
+}
+
+.bg--live {
+  background: var(--color--live);
+  color: var(--fgcolor--live);
 }
 
 .color--live {
-  color: #000;
+  color: var(--color--live);
+}
+
+.bg--native {
+  background: var(--color--native);
+  color: var(--fgcolor--native);
+}
+
+.bg--native2 {
+  background: var(--color--native2);
+  color: var(--fgcolor--native2);
+}
+
+.bg--ekstra {
+  background: var(--color--ekstra);
+  color: var(--fgcolor--ekstra);
+}
+
+.bg--filmmagasinet {
+  background: var(--color--filmmagasinet);
+  color: var(--fgcolor--filmmagasinet);
+}
+
+.bg--flash {
+  background: var(--color--flash);
+  color: var(--fgcolor--flash);
+}
+
+.bg--forbrug {
+  background: var(--color--forbrug);
+  color: var(--fgcolor--forbrug);
+}
+
+.bg--livescore {
+  background: var(--color--livescore);
+  color: var(--fgcolor--livescore);
+}
+
+.bg--livescore2 {
+  background: var(--color--livescore2);
+  color: var(--fgcolor--livescore2);
+}
+
+.bg--nationen {
+  background: var(--color--nationen);
+  color: var(--fgcolor--nationen);
+}
+
+.bg--nationen2 {
+  background: var(--color--nationen2);
+  color: var(--fgcolor--nationen2);
+}
+
+.bg--nyheder {
+  background: var(--color--nyheder);
+  color: var(--fgcolor--nyheder);
+}
+
+.bg--nyheder2 {
+  background: var(--color--nyheder2);
+  color: var(--fgcolor--nyheder2);
+}
+
+.bg--sex-samliv {
+  background: var(--color--sex-samliv);
+  color: var(--fgcolor--sex-samliv);
+}
+
+.bg--sex-samliv2 {
+  background: var(--color--sex-samliv2);
+  color: var(--fgcolor--sex-samliv2);
+}
+
+.bg--skolefodbold {
+  background: var(--color--skolefodbold);
+  color: var(--color--skolefodbold);
+}
+
+.bg--sport {
+  background: var(--color--sport);
+  color: var(--color--sport);
+}
+
+.bg--tv {
+  background: var(--color--tv);
+  color: var(--color--tv);
 }
 
 .color--native {
-  color: #cec4a6;
+  color: var(--color--native);
 }
 
 .color--native2 {
-  color: #84a8c4;
+  color: var(--color--native2);
 }
 
 .color--facebook {
-  color: #31769b;
+  color: var(--color--facebook);
 }
 
 .color--twitter {
-  color: #4fa8df;
+  color: var(--color--twitter);
 }
 
 .color--ekstra {
-  color: #bd1118;
+  color: var(--color--ekstra);
 }
 
 .color--filmmagasinet {
-  color: #650188;
+  color: var(--color--filmmagasinet);
 }
 
 .color--flash {
-  color: #e5ad02;
+  color: var(--color--flash);
 }
 
 .color--forbrug {
-  color: #31769b;
+  color: var(--color--forbrug);
 }
 
 .color--livescore {
-  color: #32a237;
+  color: var(--color--livescore);
 }
 
 .color--livescore2 {
-  color: #cbfe33;
+  color: var(--color--livescore2);
 }
 
 .color--nationen {
-  color: #e38121;
+  color: var(--color--nationen);
 }
 
 .color--nationen2 {
-  color: #e5ad02;
+  color: var(--color--nationen2);
 }
 
 .color--nyheder {
-  color: #12507b;
+  color: var(--color--nyheder);
 }
 
 .color--nyheder2 {
-  color: #000;
+  color: var(--color--nyheder2);
 }
 
 .color--sex-samliv {
-  color: #8a0c36;
+  color: var(--color--sex-samliv);
 }
 
 .color--sex-samliv2 {
-  color: #dc7095;
+  color: var(--color--sex-samliv2);
 }
 
 .color--skolefodbold {
-  color: #93b923;
+  color: var(--color--skolefodbold);
 }
 
 .color--sport {
-  color: #32a237;
+  color: var(--color--sport);
 }
 
 .color--tv {
-  color: #bd1118;
+  color: var(--color--tv);
 }

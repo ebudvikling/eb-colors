@@ -3,7 +3,15 @@
   color: var(--fgcolor--facebook);
 }
 
+.color--facebook {
+  color: var(--color--facebook);
+}
+
 .bg--twitter {
   background: var(--color--twitter);
   color: var(--fgcolor--facebook);
+}
+
+.color--twitter {
+  color: var(--color--twitter);
 }
