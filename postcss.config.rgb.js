@@ -1,5 +1,5 @@
 module.exports = function(ctx) {
   return {
-    plugins: [require("postcss-import")()]
+    plugins: [require("postcss-rgb-plz")()]
   };
 };

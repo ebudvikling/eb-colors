@@ -1,0 +1,11 @@
+@import 'themed-colors-vars.css';
+
+.bg--primary {
+  background: var(--color--primary);
+  color: var(--color--primary);
+}
+
+.bg--secondary {
+  background: var(--color--secondary);
+  color: var(--color--secondary);
+}
