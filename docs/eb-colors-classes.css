@@ -1,548 +1,447 @@
-.bg--bordeaux {
-  background: #8a0c36;
-  color: #fff;
+:root {
+  --color--bordeaux: #8a0c36;
+  --color--red: #bd1118;
+  --color--reddark: #900;
+  --color--rose: #dc7095;
+  --fgcolor--bordeaux: #fff;
+  --fgcolor--red: #fff;
+  --fgcolor--reddark: #fff;
+  --fgcolor--rose: #fff;
+}
+
+:root {
+  --color--orange: #e5ad02;
+  --color--orangedark: #e38121;
+  --fgcolor--orange: #fff;
+  --fgcolor--orangedark: #fff;
+}
+
+:root {
+  --color--sand: #cec4a6;
+  --color--yellow: #fae500;
+  --color--yellowlight: #ff0;
+  --fgcolor--sand: #fff;
+  --fgcolor--yellow: #fff;
+  --fgcolor--yellowlight: #000;
+}
+
+:root {
+  --color--green: #32a237;
+  --color--greendark: #2f7820;
+  --color--greenlight: #93b923;
+  --color--lime: #cbfe33;
+  --fgcolor--green: #fff;
+  --fgcolor--greendark: #fff;
+  --fgcolor--greenlight: #fff;
+  --fgcolor--lime: #000;
+}
+
+:root {
+  --color--blue: #31769b;
+  --color--bluedark: #12507b;
+  --color--bluelight: #4fa8df;
+  --color--purpledark: #650188;
+  --color--sea: #84a8c4;
+  --fgcolor--blue: #fff;
+  --fgcolor--bluedark: #fff;
+  --fgcolor--bluelight: #fff;
+  --fgcolor--purpledark: #fff;
+  --fgcolor--sea: #fff;
+}
+
+:root {
+  --color--black: #000;
+  --color--graa1: #3c3c3c;
+  --color--graa2: #484848;
+  --color--graa3: #999;
+  --color--graa4: #c8c8c8;
+  --color--graa5: #ddd;
+  --color--graa6: #e5e5e5;
+  --color--graa7: #efefef;
+  --color--white: #fff;
+  --fgcolor--black: #fff;
+  --fgcolor--graa1: #fff;
+  --fgcolor--graa2: #fff;
+  --fgcolor--graa3: #fff;
+  --fgcolor--graa4: #000;
+  --fgcolor--graa5: #000;
+  --fgcolor--graa6: #000;
+  --fgcolor--graa7: #000;
+  --fgcolor--white: #000;
+}
+
+:root {
+  --color--pastel-darkgreen: #91a34f;
+  --color--pastel-darkred: #954839;
+  --color--pastel-green: #9fc29c;
+  --color--pastel-lightred: #d67e9b;
+  --color--pastel-red: #db5040;
+  --color--pastel-yellow: #d4c564;
+  --fgcolor--pastel-darkgreen: #fff;
+  --fgcolor--pastel-darkred: #fff;
+  --fgcolor--pastel-green: #fff;
+  --fgcolor--pastel-lightred: #fff;
+  --fgcolor--pastel-red: #fff;
+  --fgcolor--pastel-yellow: #fff;
+}
+:root {
+  --color--breaking: var(--color--yellowlight);
+  --color--bruger: var(--color--bluelight);
+  --color--eb: var(--color--red);
+  --color--eb2: var(--color--reddark);
+  --color--live: var(--color--black);
+  --color--native: var(--color--sand);
+  --color--native2: var(--color--sea);
+  --fgcolor--breaking: var(--color--black);
+  --fgcolor--bruger: var(--color--white);
+  --fgcolor--eb: var(--color--white);
+  --fgcolor--eb2: var(--color--white);
+  --fgcolor--live: var(--color--white);
+  --fgcolor--native: var(--color--white);
+  --fgcolor--native2: var(--color--white);
 }
-
-.bg--reddark {
-  background: #900;
-  color: #fff;
+:root {
+  --color--facebook: var(--color--blue);
+  --color--twitter: var(--color--bluelight);
+  --fgcolor--facebook: var(--color--white);
+  --fgcolor--twitter: var(--color--white);
 }
-
-.bg--red {
-  background: #bd1118;
-  color: #fff;
+:root {
+  --color--alert: var(--color--red);
+  --color--background: var(--color--white);
+  --color--error: var(--color--red);
+  --color--focus: var(--color--blue);
+  --color--primary: var(--color--bluelight);
+  --color--secondary: var(--color--graa3);
+  --color--success: var(--color--green);
+  --color--warning: var(--color--red);
+  --fgcolor--alert: var(--fgcolor--red);
+  --fgcolor--background: var(--fgcolor--white);
+  --fgcolor--error: var(--fgcolor--red);
+  --fgcolor--primary: var(--fgcolor--bluelight);
+  --fgcolor--secondary: var(--fgcolor--graa3);
+  --fgcolor--success: var(--fgcolor--green);
+  --fgcolor--warning: var(--fgcolor--red);
 }
-
-.bg--rose {
-  background: #dc7095;
-  color: #fff;
+:root {
+  --color--ekstra: var(--color--red);
+  --fgcolor--ekstra: var(--color--white);
 }
 
-.bg--orangedark {
-  background: #e38121;
-  color: #fff;
+:root {
+  --color--filmmagasinet: var(--color--purpledark);
+  --fgcolor--filmmagasinet: var(--color--white);
 }
 
-.bg--orange {
-  background: #e5ad02;
-  color: #fff;
+:root {
+  --color--flash: var(--color--orange);
+  --fgcolor--flash: var(--color--white);
 }
 
-.bg--yellow {
-  background: #fae500;
-  color: #fff;
+:root {
+  --color--forbrug: var(--color--blue);
+  --fgcolor--forbrug: var(--color--white);
 }
 
-.bg--yellowlight {
-  background: #ff0;
-  color: #000;
+:root {
+  --color--livescore: var(--color--green);
+  --color--livescore2: var(--color--lime);
+  --fgcolor--livescore: var(--color--white);
+  --fgcolor--livescore2: var(--color--black);
 }
 
-.bg--sand {
-  background: #cec4a6;
-  color: #fff;
+:root {
+  --color--nationen: var(--color--orangedark);
+  --color--nationen2: var(--color--orange);
+  --fgcolor--nationen: var(--color--white);
+  --fgcolor--nationen2: var(--color--white);
 }
 
-.bg--greendark {
-  background: #2f7820;
-  color: #fff;
+:root {
+  --color--nyheder: var(--color--bluedark);
+  --color--nyheder2: var(--color--black);
+  --fgcolor--nyheder: var(--color--white);
+  --fgcolor--nyheder2: var(--color--white);
 }
 
-.bg--green {
-  background: #32a237;
-  color: #fff;
+:root {
+  --color--sex-samliv: var(--color--bordeaux);
+  --color--sex-samliv2: var(--color--rose);
+  --fgcolor--sex-samliv: var(--color--white);
+  --fgcolor--sex-samliv2: var(--color--white);
 }
 
-.bg--greenlight {
-  background: #93b923;
-  color: #fff;
+:root {
+  --color--skolefodbold: var(--color--greenlight);
+  --fgcolor--skolefodbold: var(--color--white);
 }
 
-.bg--lime {
-  background: #cbfe33;
-  color: #000;
+:root {
+  --color--sport: var(--color--green);
+  --fgcolor--sport: var(--color--white);
 }
 
-.bg--purpledark {
-  background: #650188;
-  color: #fff;
+:root {
+  --color--tv: var(--color--red);
+  --fgcolor--tv: var(--color--white);
 }
 
-.bg--bluedark {
-  background: #12507b;
-  color: #fff;
-}
+.bg--alert { background: #bd1118; background: var(--color--alert);color: #fff;color: var(--fgcolor--alert) }
 
-.bg--blue {
-  background: #31769b;
-  color: #fff;
-}
+.bg--background { background: #fff; background: var(--color--background);color: #000;color: var(--fgcolor--background) }
 
-.bg--bluelight {
-  background: #4fa8df;
-  color: #fff;
-}
+.bg--black { background: #000; background: var(--color--black);color: #fff;color: var(--fgcolor--black) }
 
-.bg--sea {
-  background: #84a8c4;
-  color: #fff;
-}
+.bg--blue { background: #31769b; background: var(--color--blue);color: #fff;color: var(--fgcolor--blue) }
 
-.bg--black {
-  background: #000;
-  color: #fff;
-}
+.bg--bluedark { background: #12507b; background: var(--color--bluedark);color: #fff;color: var(--fgcolor--bluedark) }
 
-.bg--graa1 {
-  background: #3c3c3c;
-  color: #fff;
-}
+.bg--bluelight { background: #4fa8df; background: var(--color--bluelight);color: #fff;color: var(--fgcolor--bluelight) }
 
-.bg--graa2 {
-  background: #484848;
-  color: #fff;
-}
+.bg--bordeaux { background: #8a0c36; background: var(--color--bordeaux);color: #fff;color: var(--fgcolor--bordeaux) }
 
-.bg--graa3 {
-  background: #999;
-  color: #fff;
-}
+.bg--breaking { background: #ff0; background: var(--color--breaking);color: #000;color: var(--fgcolor--breaking) }
 
-.bg--graa4 {
-  background: #c8c8c8;
-  color: #000;
-}
+.bg--bruger { background: #4fa8df; background: var(--color--bruger);color: #fff;color: var(--fgcolor--bruger) }
 
-.bg--graa5 {
-  background: #ddd;
-  color: #000;
-}
+.bg--eb { background: #bd1118; background: var(--color--eb);color: #fff;color: var(--fgcolor--eb) }
 
-.bg--graa6 {
-  background: #e5e5e5;
-  color: #000;
-}
+.bg--eb2 { background: #900; background: var(--color--eb2);color: #fff;color: var(--fgcolor--eb2) }
 
-.bg--graa7 {
-  background: #efefef;
-  color: #000;
-}
+.bg--ekstra { background: #bd1118; background: var(--color--ekstra);color: #fff;color: var(--fgcolor--ekstra) }
 
-.bg--white {
-  background: #fff;
-  color: #000;
-}
+.bg--error { background: #bd1118; background: var(--color--error);color: #fff;color: var(--fgcolor--error) }
 
-.bg--pastel-red {
-  background: #db5040;
-  color: #fff;
-}
+.bg--facebook { background: #31769b; background: var(--color--facebook);color: #fff;color: var(--fgcolor--facebook) }
 
-.bg--pastel-darkred {
-  background: #954839;
-  color: #fff;
-}
+.bg--filmmagasinet { background: #650188; background: var(--color--filmmagasinet);color: #fff;color: var(--fgcolor--filmmagasinet) }
 
-.bg--pastel-lightred {
-  background: #d67e9b;
-  color: #fff;
-}
+.bg--flash { background: #e5ad02; background: var(--color--flash);color: #fff;color: var(--fgcolor--flash) }
 
-.bg--pastel-green {
-  background: #9fc29c;
-  color: #fff;
-}
+.bg--focus { background: #31769b; background: var(--color--focus) }
 
-.bg--pastel-darkgreen {
-  background: #91a34f;
-  color: #fff;
-}
+.bg--forbrug { background: #31769b; background: var(--color--forbrug);color: #fff;color: var(--fgcolor--forbrug) }
 
-.bg--pastel-yellow {
-  background: #d4c564;
-  color: #fff;
-}
+.bg--graa1 { background: #3c3c3c; background: var(--color--graa1);color: #fff;color: var(--fgcolor--graa1) }
 
-.bg--eb {
-  background: #bd1118;
-  color: #fff;
-}
+.bg--graa2 { background: #484848; background: var(--color--graa2);color: #fff;color: var(--fgcolor--graa2) }
 
-.bg--eb2 {
-  background: #900;
-  color: #fff;
-}
+.bg--graa3 { background: #999; background: var(--color--graa3);color: #fff;color: var(--fgcolor--graa3) }
 
-.bg--breaking {
-  background: #ff0;
-  color: #000;
-}
+.bg--graa4 { background: #c8c8c8; background: var(--color--graa4);color: #000;color: var(--fgcolor--graa4) }
 
-.bg--bruger {
-  background: #4fa8df;
-  color: #fff;
-}
+.bg--graa5 { background: #ddd; background: var(--color--graa5);color: #000;color: var(--fgcolor--graa5) }
 
-.bg--live {
-  background: #000;
-  color: #fff;
-}
+.bg--graa6 { background: #e5e5e5; background: var(--color--graa6);color: #000;color: var(--fgcolor--graa6) }
 
-.bg--native {
-  background: #cec4a6;
-  color: #fff;
-}
+.bg--graa7 { background: #efefef; background: var(--color--graa7);color: #000;color: var(--fgcolor--graa7) }
 
-.bg--native2 {
-  background: #84a8c4;
-  color: #fff;
-}
+.bg--green { background: #32a237; background: var(--color--green);color: #fff;color: var(--fgcolor--green) }
 
-.bg--facebook {
-  background: #31769b;
-  color: #fff;
-}
+.bg--greendark { background: #2f7820; background: var(--color--greendark);color: #fff;color: var(--fgcolor--greendark) }
 
-.bg--twitter {
-  background: #4fa8df;
-  color: #fff;
-}
+.bg--greenlight { background: #93b923; background: var(--color--greenlight);color: #fff;color: var(--fgcolor--greenlight) }
 
-.bg--ekstra {
-  background: #bd1118;
-  color: #fff;
-}
+.bg--lime { background: #cbfe33; background: var(--color--lime);color: #000;color: var(--fgcolor--lime) }
 
-.bg--filmmagasinet {
-  background: #650188;
-  color: #fff;
-}
+.bg--live { background: #000; background: var(--color--live);color: #fff;color: var(--fgcolor--live) }
 
-.bg--flash {
-  background: #e5ad02;
-  color: #fff;
-}
+.bg--livescore { background: #32a237; background: var(--color--livescore);color: #fff;color: var(--fgcolor--livescore) }
 
-.bg--forbrug {
-  background: #31769b;
-  color: #fff;
-}
+.bg--livescore2 { background: #cbfe33; background: var(--color--livescore2);color: #000;color: var(--fgcolor--livescore2) }
 
-.bg--livescore {
-  background: #32a237;
-  color: #fff;
-}
+.bg--nationen { background: #e38121; background: var(--color--nationen);color: #fff;color: var(--fgcolor--nationen) }
 
-.bg--livescore2 {
-  background: #cbfe33;
-  color: #000;
-}
+.bg--nationen2 { background: #e5ad02; background: var(--color--nationen2);color: #fff;color: var(--fgcolor--nationen2) }
 
-.bg--nationen {
-  background: #e38121;
-  color: #fff;
-}
+.bg--native { background: #cec4a6; background: var(--color--native);color: #fff;color: var(--fgcolor--native) }
 
-.bg--nationen2 {
-  background: #e5ad02;
-  color: #fff;
-}
+.bg--native2 { background: #84a8c4; background: var(--color--native2);color: #fff;color: var(--fgcolor--native2) }
 
-.bg--nyheder {
-  background: #12507b;
-  color: #fff;
-}
+.bg--nyheder { background: #12507b; background: var(--color--nyheder);color: #fff;color: var(--fgcolor--nyheder) }
 
-.bg--nyheder2 {
-  background: #000;
-  color: #fff;
-}
+.bg--nyheder2 { background: #000; background: var(--color--nyheder2);color: #fff;color: var(--fgcolor--nyheder2) }
 
-.bg--sex-samliv {
-  background: #8a0c36;
-  color: #fff;
-}
+.bg--orange { background: #e5ad02; background: var(--color--orange);color: #fff;color: var(--fgcolor--orange) }
 
-.bg--sex-samliv2 {
-  background: #dc7095;
-  color: #fff;
-}
+.bg--orangedark { background: #e38121; background: var(--color--orangedark);color: #fff;color: var(--fgcolor--orangedark) }
 
-.bg--skolefodbold {
-  background: #93b923;
-  color: #fff;
-}
+.bg--pastel-darkgreen { background: #91a34f; background: var(--color--pastel-darkgreen);color: #fff;color: var(--fgcolor--pastel-darkgreen) }
 
-.bg--sport {
-  background: #32a237;
-  color: #fff;
-}
+.bg--pastel-darkred { background: #954839; background: var(--color--pastel-darkred);color: #fff;color: var(--fgcolor--pastel-darkred) }
 
-.bg--tv {
-  background: #bd1118;
-  color: #fff;
-}
+.bg--pastel-green { background: #9fc29c; background: var(--color--pastel-green);color: #fff;color: var(--fgcolor--pastel-green) }
 
-.color--bordeaux {
-  color: #8a0c36;
-}
+.bg--pastel-lightred { background: #d67e9b; background: var(--color--pastel-lightred);color: #fff;color: var(--fgcolor--pastel-lightred) }
 
-.color--reddark {
-  color: #900;
-}
+.bg--pastel-red { background: #db5040; background: var(--color--pastel-red);color: #fff;color: var(--fgcolor--pastel-red) }
 
-.color--red {
-  color: #bd1118;
-}
+.bg--pastel-yellow { background: #d4c564; background: var(--color--pastel-yellow);color: #fff;color: var(--fgcolor--pastel-yellow) }
 
-.color--rose {
-  color: #dc7095;
-}
+.bg--primary { background: #4fa8df; background: var(--color--primary);color: #fff;color: var(--fgcolor--primary) }
 
-.color--orangedark {
-  color: #e38121;
-}
+.bg--purpledark { background: #650188; background: var(--color--purpledark);color: #fff;color: var(--fgcolor--purpledark) }
 
-.color--orange {
-  color: #e5ad02;
-}
+.bg--red { background: #bd1118; background: var(--color--red);color: #fff;color: var(--fgcolor--red) }
 
-.color--yellow {
-  color: #fae500;
-}
+.bg--reddark { background: #900; background: var(--color--reddark);color: #fff;color: var(--fgcolor--reddark) }
 
-.color--yellowlight {
-  color: #ff0;
-}
+.bg--rose { background: #dc7095; background: var(--color--rose);color: #fff;color: var(--fgcolor--rose) }
 
-.color--sand {
-  color: #cec4a6;
-}
+.bg--sand { background: #cec4a6; background: var(--color--sand);color: #fff;color: var(--fgcolor--sand) }
 
-.color--greendark {
-  color: #2f7820;
-}
+.bg--sea { background: #84a8c4; background: var(--color--sea);color: #fff;color: var(--fgcolor--sea) }
 
-.color--green {
-  color: #32a237;
-}
+.bg--secondary { background: #999; background: var(--color--secondary);color: #fff;color: var(--fgcolor--secondary) }
 
-.color--greenlight {
-  color: #93b923;
-}
+.bg--sex-samliv { background: #8a0c36; background: var(--color--sex-samliv);color: #fff;color: var(--fgcolor--sex-samliv) }
 
-.color--lime {
-  color: #cbfe33;
-}
+.bg--sex-samliv2 { background: #dc7095; background: var(--color--sex-samliv2);color: #fff;color: var(--fgcolor--sex-samliv2) }
 
-.color--purpledark {
-  color: #650188;
-}
+.bg--skolefodbold { background: #93b923; background: var(--color--skolefodbold);color: #fff;color: var(--fgcolor--skolefodbold) }
 
-.color--bluedark {
-  color: #12507b;
-}
+.bg--sport { background: #32a237; background: var(--color--sport);color: #fff;color: var(--fgcolor--sport) }
 
-.color--blue {
-  color: #31769b;
-}
+.bg--success { background: #32a237; background: var(--color--success);color: #fff;color: var(--fgcolor--success) }
 
-.color--bluelight {
-  color: #4fa8df;
-}
+.bg--tv { background: #bd1118; background: var(--color--tv);color: #fff;color: var(--fgcolor--tv) }
 
-.color--sea {
-  color: #84a8c4;
-}
+.bg--twitter { background: #4fa8df; background: var(--color--twitter);color: #fff;color: var(--fgcolor--twitter) }
 
-.color--black {
-  color: #000;
-}
+.bg--warning { background: #bd1118; background: var(--color--warning);color: #fff;color: var(--fgcolor--warning) }
 
-.color--graa1 {
-  color: #3c3c3c;
-}
+.bg--white { background: #fff; background: var(--color--white);color: #000;color: var(--fgcolor--white) }
 
-.color--graa2 {
-  color: #484848;
-}
+.bg--yellow { background: #fae500; background: var(--color--yellow);color: #fff;color: var(--fgcolor--yellow) }
 
-.color--graa3 {
-  color: #999;
-}
+.bg--yellowlight { background: #ff0; background: var(--color--yellowlight);color: #000;color: var(--fgcolor--yellowlight) }
 
-.color--graa4 {
-  color: #c8c8c8;
-}
+.color--alert { color: #bd1118; color: var(--color--alert) }
 
-.color--graa5 {
-  color: #ddd;
-}
+.color--background { color: #fff; color: var(--color--background) }
 
-.color--graa6 {
-  color: #e5e5e5;
-}
+.color--black { color: #000; color: var(--color--black) }
 
-.color--graa7 {
-  color: #efefef;
-}
+.color--blue { color: #31769b; color: var(--color--blue) }
 
-.color--white {
-  color: #fff;
-}
+.color--bluedark { color: #12507b; color: var(--color--bluedark) }
 
-.color--pastel-red {
-  color: #db5040;
-}
+.color--bluelight { color: #4fa8df; color: var(--color--bluelight) }
 
-.color--pastel-darkred {
-  color: #954839;
-}
+.color--bordeaux { color: #8a0c36; color: var(--color--bordeaux) }
 
-.color--pastel-lightred {
-  color: #d67e9b;
-}
+.color--breaking { color: #ff0; color: var(--color--breaking) }
 
-.color--pastel-green {
-  color: #9fc29c;
-}
+.color--bruger { color: #4fa8df; color: var(--color--bruger) }
 
-.color--pastel-darkgreen {
-  color: #91a34f;
-}
+.color--eb { color: #bd1118; color: var(--color--eb) }
 
-.color--pastel-yellow {
-  color: #d4c564;
-}
+.color--eb2 { color: #900; color: var(--color--eb2) }
 
-.color--eb {
-  color: #bd1118;
-}
+.color--ekstra { color: #bd1118; color: var(--color--ekstra) }
 
-.color--eb2 {
-  color: #900;
-}
+.color--error { color: #bd1118; color: var(--color--error) }
 
-.color--breaking {
-  color: #ff0;
-}
+.color--facebook { color: #31769b; color: var(--color--facebook) }
 
-.color--bruger {
-  color: #4fa8df;
-}
+.color--filmmagasinet { color: #650188; color: var(--color--filmmagasinet) }
 
-.color--live {
-  color: #000;
-}
+.color--flash { color: #e5ad02; color: var(--color--flash) }
 
-.color--native {
-  color: #cec4a6;
-}
+.color--focus { color: #31769b; color: var(--color--focus) }
 
-.color--native2 {
-  color: #84a8c4;
-}
+.color--forbrug { color: #31769b; color: var(--color--forbrug) }
 
-.color--facebook {
-  color: #31769b;
-}
+.color--graa1 { color: #3c3c3c; color: var(--color--graa1) }
 
-.color--twitter {
-  color: #4fa8df;
-}
+.color--graa2 { color: #484848; color: var(--color--graa2) }
 
-.color--ekstra {
-  color: #bd1118;
-}
+.color--graa3 { color: #999; color: var(--color--graa3) }
 
-.color--filmmagasinet {
-  color: #650188;
-}
+.color--graa4 { color: #c8c8c8; color: var(--color--graa4) }
 
-.color--flash {
-  color: #e5ad02;
-}
+.color--graa5 { color: #ddd; color: var(--color--graa5) }
 
-.color--forbrug {
-  color: #31769b;
-}
+.color--graa6 { color: #e5e5e5; color: var(--color--graa6) }
 
-.color--livescore {
-  color: #32a237;
-}
+.color--graa7 { color: #efefef; color: var(--color--graa7) }
 
-.color--livescore2 {
-  color: #cbfe33;
-}
+.color--green { color: #32a237; color: var(--color--green) }
 
-.color--nationen {
-  color: #e38121;
-}
+.color--greendark { color: #2f7820; color: var(--color--greendark) }
 
-.color--nationen2 {
-  color: #e5ad02;
-}
+.color--greenlight { color: #93b923; color: var(--color--greenlight) }
 
-.color--nyheder {
-  color: #12507b;
-}
+.color--lime { color: #cbfe33; color: var(--color--lime) }
 
-.color--nyheder2 {
-  color: #000;
-}
+.color--live { color: #000; color: var(--color--live) }
 
-.color--sex-samliv {
-  color: #8a0c36;
-}
+.color--livescore { color: #32a237; color: var(--color--livescore) }
 
-.color--sex-samliv2 {
-  color: #dc7095;
-}
+.color--livescore2 { color: #cbfe33; color: var(--color--livescore2) }
 
-.color--skolefodbold {
-  color: #93b923;
-}
+.color--nationen { color: #e38121; color: var(--color--nationen) }
 
-.color--sport {
-  color: #32a237;
-}
+.color--nationen2 { color: #e5ad02; color: var(--color--nationen2) }
 
-.color--tv {
-  color: #bd1118;
-}
+.color--native { color: #cec4a6; color: var(--color--native) }
 
-.border--black {
-  border-color: #000;
-}
+.color--native2 { color: #84a8c4; color: var(--color--native2) }
 
-.border--graa1 {
-  border-color: #3c3c3c;
-}
+.color--nyheder { color: #12507b; color: var(--color--nyheder) }
 
-.border--graa2 {
-  border-color: #484848;
-}
+.color--nyheder2 { color: #000; color: var(--color--nyheder2) }
 
-.border--graa3 {
-  border-color: #999;
-}
+.color--orange { color: #e5ad02; color: var(--color--orange) }
 
-.border--graa4 {
-  border-color: #c8c8c8;
-}
+.color--orangedark { color: #e38121; color: var(--color--orangedark) }
 
-.border--graa5 {
-  border-color: #ddd;
-}
+.color--pastel-darkgreen { color: #91a34f; color: var(--color--pastel-darkgreen) }
 
-.border--graa6 {
-  border-color: #e5e5e5;
-}
+.color--pastel-darkred { color: #954839; color: var(--color--pastel-darkred) }
 
-.border--graa7 {
-  border-color: #efefef;
-}
+.color--pastel-green { color: #9fc29c; color: var(--color--pastel-green) }
 
-.border--white {
-  border-color: #fff;
-}
+.color--pastel-lightred { color: #d67e9b; color: var(--color--pastel-lightred) }
+
+.color--pastel-red { color: #db5040; color: var(--color--pastel-red) }
+
+.color--pastel-yellow { color: #d4c564; color: var(--color--pastel-yellow) }
+
+.color--primary { color: #4fa8df; color: var(--color--primary) }
+
+.color--purpledark { color: #650188; color: var(--color--purpledark) }
+
+.color--red { color: #bd1118; color: var(--color--red) }
+
+.color--reddark { color: #900; color: var(--color--reddark) }
+
+.color--rose { color: #dc7095; color: var(--color--rose) }
+
+.color--sand { color: #cec4a6; color: var(--color--sand) }
+
+.color--sea { color: #84a8c4; color: var(--color--sea) }
+
+.color--secondary { color: #999; color: var(--color--secondary) }
+
+.color--sex-samliv { color: #8a0c36; color: var(--color--sex-samliv) }
+
+.color--sex-samliv2 { color: #dc7095; color: var(--color--sex-samliv2) }
+
+.color--skolefodbold { color: #93b923; color: var(--color--skolefodbold) }
+
+.color--sport { color: #32a237; color: var(--color--sport) }
+
+.color--success { color: #32a237; color: var(--color--success) }
+
+.color--tv { color: #bd1118; color: var(--color--tv) }
+
+.color--twitter { color: #4fa8df; color: var(--color--twitter) }
+
+.color--warning { color: #bd1118; color: var(--color--warning) }
+
+.color--white { color: #fff; color: var(--color--white) }
+
+.color--yellow { color: #fae500; color: var(--color--yellow) }
+
+.color--yellowlight { color: #ff0; color: var(--color--yellowlight) }

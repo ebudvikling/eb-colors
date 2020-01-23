@@ -8,11 +8,11 @@
   "description": "EB colors for SCSS and CSS",
   "scripts": {
     "build": "yarn build:vars && yarn build:classes",
-    "build:classes": "node dopostcss.js",
+    "build:classes": "node createcss.js",
     "build:vars": "yarn postcss ./src/all-css-vars.css --config ./postcss.config.js -o ./dist/eb-colors-css-vars.css",
     "build-ts-vars": "yarn parse-snippets && node handleTS",
     "postbuild": "cpx \"dist/eb-colors-classes.css\" \"docs/\" ",
-    "example": "yarn parse-snippets && node createExample",
+    "example": "node parsecss.js",
     "prettier": "prettier \"./src/**/*.scss\" --write",
     "convert-rgb": "yarn postcss ./dist/eb-colors-css-vars.css --config ./postcss.config.rgb.js -o ./temp/eb-colors-vars-rgb.css",
     "postconvert-rgb": "node convertrgb",

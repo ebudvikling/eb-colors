@@ -48,9 +48,17 @@
   color: var(--fgcolor--native);
 }
 
+.color--native {
+  color: var(--color--native);
+}
+
 .bg--native2 {
   background: var(--color--native2);
   color: var(--fgcolor--native2);
+}
+
+.color--native2 {
+  color: var(--color--native2);
 }
 
 .bg--ekstra {
@@ -58,9 +66,17 @@
   color: var(--fgcolor--ekstra);
 }
 
+.color--ekstra {
+  color: var(--color--ekstra);
+}
+
 .bg--filmmagasinet {
   background: var(--color--filmmagasinet);
   color: var(--fgcolor--filmmagasinet);
+}
+
+.color--filmmagasinet {
+  color: var(--color--filmmagasinet);
 }
 
 .bg--flash {
@@ -68,9 +84,17 @@
   color: var(--fgcolor--flash);
 }
 
+.color--flash {
+  color: var(--color--flash);
+}
+
 .bg--forbrug {
   background: var(--color--forbrug);
   color: var(--fgcolor--forbrug);
+}
+
+.color--forbrug {
+  color: var(--color--forbrug);
 }
 
 .bg--livescore {
@@ -78,9 +102,17 @@
   color: var(--fgcolor--livescore);
 }
 
+.color--livescore {
+  color: var(--color--livescore);
+}
+
 .bg--livescore2 {
   background: var(--color--livescore2);
   color: var(--fgcolor--livescore2);
+}
+
+.color--livescore2 {
+  color: var(--color--livescore2);
 }
 
 .bg--nationen {
@@ -88,9 +120,17 @@
   color: var(--fgcolor--nationen);
 }
 
+.color--nationen {
+  color: var(--color--nationen);
+}
+
 .bg--nationen2 {
   background: var(--color--nationen2);
   color: var(--fgcolor--nationen2);
+}
+
+.color--nationen2 {
+  color: var(--color--nationen2);
 }
 
 .bg--nyheder {
@@ -98,9 +138,17 @@
   color: var(--fgcolor--nyheder);
 }
 
+.color--nyheder {
+  color: var(--color--nyheder);
+}
+
 .bg--nyheder2 {
   background: var(--color--nyheder2);
   color: var(--fgcolor--nyheder2);
+}
+
+.color--nyheder2 {
+  color: var(--color--nyheder2);
 }
 
 .bg--sex-samliv {
@@ -108,13 +156,25 @@
   color: var(--fgcolor--sex-samliv);
 }
 
+.color--sex-samliv {
+  color: var(--color--sex-samliv);
+}
+
 .bg--sex-samliv2 {
   background: var(--color--sex-samliv2);
   color: var(--fgcolor--sex-samliv2);
 }
 
+.color--sex-samliv2 {
+  color: var(--color--sex-samliv2);
+}
+
 .bg--skolefodbold {
   background: var(--color--skolefodbold);
+  color: var(--color--skolefodbold);
+}
+
+.color--skolefodbold {
   color: var(--color--skolefodbold);
 }
 
@@ -123,81 +183,13 @@
   color: var(--color--sport);
 }
 
+.color--sport {
+  color: var(--color--sport);
+}
+
 .bg--tv {
   background: var(--color--tv);
   color: var(--color--tv);
-}
-
-.color--native {
-  color: var(--color--native);
-}
-
-.color--native2 {
-  color: var(--color--native2);
-}
-
-.color--facebook {
-  color: var(--color--facebook);
-}
-
-.color--twitter {
-  color: var(--color--twitter);
-}
-
-.color--ekstra {
-  color: var(--color--ekstra);
-}
-
-.color--filmmagasinet {
-  color: var(--color--filmmagasinet);
-}
-
-.color--flash {
-  color: var(--color--flash);
-}
-
-.color--forbrug {
-  color: var(--color--forbrug);
-}
-
-.color--livescore {
-  color: var(--color--livescore);
-}
-
-.color--livescore2 {
-  color: var(--color--livescore2);
-}
-
-.color--nationen {
-  color: var(--color--nationen);
-}
-
-.color--nationen2 {
-  color: var(--color--nationen2);
-}
-
-.color--nyheder {
-  color: var(--color--nyheder);
-}
-
-.color--nyheder2 {
-  color: var(--color--nyheder2);
-}
-
-.color--sex-samliv {
-  color: var(--color--sex-samliv);
-}
-
-.color--sex-samliv2 {
-  color: var(--color--sex-samliv2);
-}
-
-.color--skolefodbold {
-  color: var(--color--skolefodbold);
-}
-
-.color--sport {
-  color: var(--color--sport);
 }
 
 .color--tv {

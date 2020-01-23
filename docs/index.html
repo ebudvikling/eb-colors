@@ -36,6 +36,7 @@
               font-weight: bold;
         margin: 5px 0;
             }
+            .bg--background,
             .bg--white,
             .bg--live2 {
               border: 1px solid #000;
@@ -43,12 +44,38 @@
         width: var(--circle-dim);
         height: var(--circle-dim);
             }
+            .example {
+              box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        width: 25%;
+            }
+            .example-visual {
+              align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 20px;
+        text-align: center;
+            }
+            .flex {
+              display: flex;
+
+        flex-wrap: wrap;
+            }
+            .container {
+              margin: auto;
+        width: 930px;
+            }
     </style>
   </head>
 
   <body>
-    <div id="fnColors"></div>
-    <script src="eb-colors-classes.js"></script>
+    <div id="fnColors" class="container"></div>
+    <!-- <script src="eb-colors-classes.js"></script>
+    <script src="color-render.js"></script> -->
+    <script src="colorJson.js"></script>
     <script src="color-render.js"></script>
   </body>
 </html>
